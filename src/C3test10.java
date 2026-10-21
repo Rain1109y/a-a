@@ -9,5 +9,6 @@ public class C3test10 {
     static int Fib(int a){
         if(a==1||a==2)  return  1;
         return Fib(a-1)+Fib(a-2);
+
     }
 }
